@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$database = "hr"; // make sure this matches your database name
+$database = "hr"; 
 
 $conn = new mysqli($servername, $username, $password, $database);
 
@@ -90,4 +90,5 @@ $result = $conn->query($sql);
 
 <?php
 $conn->close();
+
 ?>
